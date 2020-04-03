@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<script src="js/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<title>Моё Расписание</title>
+</head>
+<body class="fluid-container">
+
+<header class="row nav nav-fill no-gutters">
+    <nav class="col-lg-4 col-md-4 col-sm-4">
+        <ol class="breadcrumb my-0">
+            <li class="breadcrumb-item"><a href="#">Расписание</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Моё</li>
+        </ol>
+    </nav>
+    <div class="col">
+        <li class="nav-item">
+            <a class="nav-link disabled float-lg-right float-sm-right mr-sm-5" href="#" tabindex="-1" aria-disabled="true">Приветствие</a>
+        </li>
+    </div>
+</header>
+
+<main class="container-fluid">
+    <div class="row row-cols-2">
+        <div class="col-2"> <!-- Первый столбец -->
+            <div class="row row-cols-1">
+                <div class="col">
+                    Занятие
+                </div>
+                <div class="col">
+                    1
+                </div>
+                <div class="col">
+                    2
+                </div>
+                <div class="col">
+                    3
+                </div>
+                <div class="col">
+                    4
+                </div>
+                <div class="col">
+                    5
+                </div>
+            </div>
+        </div>
+        <div class="col-10"> <!-- Столбец с днями недели -->
+            <div class="row row-cols-6">
+                <div class="col"> <!-- Понедельник -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-primary">
+                            Понедельник
+                        </div>
+                        <div class="col">
+                            <div class="flex-row links_buttons">
+                                <div state="col">
+                                    <div class="row row-cols-1">
+                                        <div class="col open">
+                                            Название, аудитория
+                                        </div>
+                                        <div class="col">
+                                            Преподавательский П. П.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Вторник -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-primary">
+                            Вторник
+                        </div>
+                        <div class="col">
+
+                            <div class="flex-row">
+                                <div state="col dropdown">
+                                    <div class="row row-cols-1">
+                                        <div class="col btn-secondary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown">
+                                            Название, аудитория
+                                        </div>
+                                        <div class="col" >
+                                            <div class="row row-cols-1 dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <div class="col dropdown-item">
+                                                    <a href="#">Преподавательский П. П.</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Выпадающая ссылка
+                                </div>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Среда -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-primary">
+                            Среда
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Четверг -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-primary">
+                            Четверг
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Пятница -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-primary">
+                            Пятница
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col"> <!-- Суббота -->
+                    <div class="row row-cols-1">
+                        <div class="col bg-warning">
+                            Суббота
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                        <div class="col">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>

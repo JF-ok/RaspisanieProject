@@ -62,11 +62,11 @@
                         <div class="col bg-primary">
                             Понедельник
                         </div>
-                        <div class="col">
-                            <div class="flex-row links_buttons">
-                                <div state="col">
+
+                            <div class="flex-row link_button">
+                                <div class="col">
                                     <div class="row row-cols-1">
-                                        <div class="col open">
+                                        <div class="col bg-success" state="open">
                                             Название, аудитория
                                         </div>
                                         <div class="col">
@@ -75,7 +75,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
                         <div class="col">
                             1
                         </div>
@@ -98,22 +98,19 @@
                         <div class="col">
 
                             <div class="flex-row">
-                                <div state="col dropdown">
-                                    <div class="row row-cols-1">
-                                        <div class="col btn-secondary dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown">
-                                            Название, аудитория
+                                    <div class="dropdown">
+                                        <div class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Занятие, аудитория
                                         </div>
-                                        <div class="col" >
-                                            <div class="row row-cols-1 dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                <div class="col dropdown-item">
-                                                    <a href="#">Преподавательский П. П.</a>
-                                                </div>
-                                            </div>
+        
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                          <a class="dropdown-item" href="#">Преподаватель</a>
                                         </div>
-                                    </div>
-                                </div>
+                                      </div>
                             </div>
 
+                        </div>
+                        <div class="col">
                             <div class="dropdown">
                                 <div class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Выпадающая ссылка
@@ -125,10 +122,6 @@
                                   <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
                               </div>
-
-                        </div>
-                        <div class="col">
-                            1
                         </div>
                         <div class="col">
                             1

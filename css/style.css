@@ -2,19 +2,19 @@ body, html{
     width: 100%;
     height: 100%;
 }
-/* .col{
+.container-fluid .col{
     background-color: silver;
-} */
+} 
 
-.links_buttons {
+.link_button {
     background-color: gray;
 }
 
-.links_buttons div[state = open] div>.col+.col{
+.link_button div[state = open] div>.col+.col{
 	display: none;
 }
 
-.links_buttons div[state = close] div>.col+.col{
+.link_button div[state = close] div>.col+.col{
     display: flex;
     flex-direction: column;
 }

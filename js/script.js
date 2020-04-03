@@ -1,5 +1,5 @@
 window.onload = function (){
- var links = document.querySelectorAll(".links_buttons div")
+ var links = document.querySelectorAll(".link_button div")
  for (var i = 0; i < links.length; i++) {
  	links[i].onclick = function (){
  		if (this.getAttribute("state") == "open") {
